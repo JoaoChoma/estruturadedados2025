@@ -1,0 +1,17 @@
+Um supermercado quer automatizar o caixa. O operador deve digitar o preço de cada produto comprado, e o programa deve somar tudo até que ele digite zero.
+
+Início
+
+    Declarar real Preco
+    Declarar real Total ← 0
+
+    Faça
+        Escreva "Digite o preço do produto (0 para encerrar): "
+        Leia Preco
+
+        Total ← Total + Preco
+    Enquanto Preco ≠ 0
+
+    Escreva "Total da compra: R$ ", Total
+
+Fim

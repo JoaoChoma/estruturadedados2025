@@ -1,0 +1,28 @@
+Em uma turma de 20 alunos, deseja-se saber quantos tiraram nota abaixo de 6, entre 6 e 8, e acima de 8.
+
+Início
+
+    Declarar vetor Notas[20]
+    Declarar inteiro i
+    Declarar inteiro Abaixo6 ← 0
+    Declarar inteiro Entre6e8 ← 0
+    Declarar inteiro Acima8 ← 0
+
+    Para i de 0 até 19 faça
+        Escreva "Digite a nota do aluno ", i+1, ": "
+        Leia Notas[i]
+
+        Se Notas[i] < 6 então
+            Abaixo6 ← Abaixo6 + 1
+        Senão se Notas[i] >= 6 e Notas[i] <= 8 então
+            Entre6e8 ← Entre6e8 + 1
+        Senão
+            Acima8 ← Acima8 + 1
+        FimSe
+    FimPara
+
+    Escreva "Quantidade de alunos com nota abaixo de 6: ", Abaixo6
+    Escreva "Quantidade de alunos com nota entre 6 e 8: ", Entre6e8
+    Escreva "Quantidade de alunos com nota acima de 8: ", Acima8
+
+Fim

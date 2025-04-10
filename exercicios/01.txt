@@ -1,0 +1,27 @@
+Problema:
+Uma escola precisa de um programa simples para cadastrar o nome e a nota de 5 alunos e exibir a média das notas ao final.
+
+
+Início
+
+    Declarar vetor Nomes[5]
+    Declarar vetor Notas[5]
+    Declarar inteiro i
+    Declarar real Soma ← 0
+    Declarar real Media
+
+    Para i de 0 até 4 faça
+        Escreva "Digite o nome do aluno ", i+1, ": "
+        Leia Nomes[i]
+
+        Escreva "Digite a nota do aluno ", i+1, ": "
+        Leia Notas[i]
+
+        Soma ← Soma + Notas[i]
+    FimPara
+
+    Media ← Soma / 5
+
+    Escreva "A média da turma é: ", Media
+
+Fim

@@ -1,0 +1,57 @@
+Você está criando um conversor de unidades. O usuário deve escolher uma das opções:
+
+Quilômetros para milhas
+
+Celsius para Fahrenheit
+
+Quilogramas para libras
+
+Sair
+
+Início
+
+    Declarar inteiro Opcao
+    Declarar real Valor, Resultado
+
+    Repita
+        Escreva "Escolha uma opção:"
+        Escreva "1 - Quilômetros para Milhas"
+        Escreva "2 - Celsius para Fahrenheit"
+        Escreva "3 - Quilogramas para Libras"
+        Escreva "4 - Sair"
+        Leia Opcao
+
+        Escolha Opcao
+
+            Caso 1:
+                Escreva "Digite a distância em quilômetros: "
+                Leia Valor
+                Resultado ← Valor * 0.621371
+                Escreva "Resultado: ", Resultado, " milhas"
+                Pare
+
+            Caso 2:
+                Escreva "Digite a temperatura em Celsius: "
+                Leia Valor
+                Resultado ← (Valor * 9 / 5) + 32
+                Escreva "Resultado: ", Resultado, " °F"
+                Pare
+
+            Caso 3:
+                Escreva "Digite o peso em quilogramas: "
+                Leia Valor
+                Resultado ← Valor * 2.20462
+                Escreva "Resultado: ", Resultado, " libras"
+                Pare
+
+            Caso 4:
+                Escreva "Encerrando o programa..."
+                Pare
+
+            Caso contrário:
+                Escreva "Opção inválida. Tente novamente."
+        FimEscolha
+
+    Até Opcao = 4
+
+Fim

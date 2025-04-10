@@ -1,0 +1,26 @@
+Implemente um jogo no qual o computador escolhe um número secreto (por exemplo, 42) e o usuário deve adivinhar qual é esse número. O programa deve informar se o número digitado é maior ou menor que o número secreto, até o acerto.
+
+
+Início
+
+    Declarar inteiro NumeroSecreto ← 42
+    Declarar inteiro Tentativa
+
+    Escreva "Bem-vindo ao jogo da adivinhação!"
+    Escreva "Tente adivinhar o número secreto."
+
+    Repita
+        Escreva "Digite sua tentativa: "
+        Leia Tentativa
+
+        Se Tentativa < NumeroSecreto então
+            Escreva "O número secreto é maior."
+        Senão se Tentativa > NumeroSecreto então
+            Escreva "O número secreto é menor."
+        Senão
+            Escreva "Parabéns! Você acertou o número!"
+        FimSe
+
+    Até Tentativa = NumeroSecreto
+
+Fim

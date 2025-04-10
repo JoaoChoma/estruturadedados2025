@@ -1,0 +1,25 @@
+Uma loja quer controlar o estoque de 10 produtos. Para isso, é necessário ler os nomes e as quantidades de cada produto. Depois, mostrar quais produtos estão com estoque abaixo de 5 unidades.
+
+Início
+
+    Declarar vetor Nome[10]
+    Declarar vetor Quantidade[10]
+    Declarar inteiro i
+
+    Para i de 0 até 9 faça
+        Escreva "Digite o nome do produto ", i+1, ": "
+        Leia Nome[i]
+
+        Escreva "Digite a quantidade em estoque de ", Nome[i], ": "
+        Leia Quantidade[i]
+    FimPara
+
+    Escreva "Produtos com menos de 5 unidades em estoque:"
+
+    Para i de 0 até 9 faça
+        Se Quantidade[i] < 5 então
+            Escreva Nome[i], " - ", Quantidade[i], " unidades"
+        FimSe
+    FimPara
+
+Fim

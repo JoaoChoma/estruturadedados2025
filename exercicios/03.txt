@@ -1,0 +1,15 @@
+Uma empresa quer um sistema de segurança onde o usuário só acessa se digitar a senha correta (senha: 4321). O sistema deve continuar pedindo a senha até que ela esteja correta.
+
+Início
+
+    Declarar inteiro SenhaDigitada
+    Constante SenhaCorreta ← 4321
+
+    Faça
+        Escreva "Digite a senha: "
+        Leia SenhaDigitada
+    Enquanto SenhaDigitada ≠ SenhaCorreta
+
+    Escreva "Acesso autorizado."
+
+Fim
