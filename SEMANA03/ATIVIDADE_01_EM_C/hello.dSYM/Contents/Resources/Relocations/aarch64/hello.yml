@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/joaochoma/Documents/GitHub/estruturadedados2025/SEMANA03/ATIVIDADE_01_EM_C/hello'
+relocations:     []
+...

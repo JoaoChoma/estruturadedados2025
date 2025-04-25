@@ -15,7 +15,7 @@ Início
         Leia Nomes[i]
 
         Escreva "Digite a nota do aluno ", i+1, ": "
-        Leia Notas[i]
+        Leia Notas[i]f
 
         Soma ← Soma + Notas[i]
     FimPara
