@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/joaochoma/Documents/GitHub/estruturadedados2025/SEMANA05/alterando_valor_ponteiro'
+relocations:     []
+...
