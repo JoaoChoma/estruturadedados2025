@@ -8,6 +8,7 @@ int main() {
     printf("Endereço de x: %p\n", &x);
     printf("Valor de p: %p\n", p);
     printf("Valor apontado por p: %d\n", *p);
+    printf("Endereço de p: %p\n", &(*p));
 
     return 0;
 }
