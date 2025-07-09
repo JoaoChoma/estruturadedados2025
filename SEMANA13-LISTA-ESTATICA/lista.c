@@ -58,10 +58,15 @@ int main() {
     struct Lista minhaLista;
     Inicializa(&minhaLista);
 
-    InsereFinal(&minhaLista, 10);
-    InsereFinal(&minhaLista, 20);
-    InsereFinal(&minhaLista, 30);
-    ImprimeLista(&minhaLista);
+    for (int i = 0; i < 100; i++)
+    {
+        InsereFinal(&minhaLista, i*10);
+    }
+    
+    // InsereFinal(&minhaLista, 10);
+    // InsereFinal(&minhaLista, 20);
+    // InsereFinal(&minhaLista, 30);
+    // ImprimeLista(&minhaLista);
 
     printf("Removendo elemento da posição 1...\n");
     RemoveNaPosicao(&minhaLista, 1);
